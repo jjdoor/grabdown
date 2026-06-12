@@ -1,0 +1,104 @@
+<svg viewBox="0 0 1280 800" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="1280" height="800" fill="#f6f8fa"/>
+
+  <g transform="translate(640,92)" text-anchor="middle">
+    <text y="0" font-size="48" font-weight="800" fill="#1f2328">Clean by design. Out of your way.</text>
+    <text y="44" font-size="24" fill="#656d76">One tiny MV3 extension &#8212; no libraries, no servers, no tracking.</text>
+  </g>
+
+  <!-- three ways to grab -->
+  <g transform="translate(80,180)">
+    <!-- card 1 -->
+    <g>
+      <rect width="360" height="170" rx="14" fill="#ffffff" stroke="#d0d7de" stroke-width="1.5"/>
+      <circle cx="52" cy="56" r="26" fill="#e8f3ec"/>
+      <path d="M44 44 L62 52 L54 56 L60 66 L56 68 L50 58 L44 62 Z" fill="#1a7f37"/>
+      <text x="96" y="52" font-size="22" font-weight="700" fill="#1f2328">Right-click</text>
+      <text x="96" y="80" font-size="16" fill="#57606a">On any selection</text>
+      <text x="96" y="102" font-size="16" fill="#57606a">or link.</text>
+      <text x="28" y="148" font-size="14" fill="#8c959f">Copy selection / link as Markdown</text>
+    </g>
+    <!-- card 2 -->
+    <g transform="translate(380,0)">
+      <rect width="360" height="170" rx="14" fill="#ffffff" stroke="#d0d7de" stroke-width="1.5"/>
+      <g transform="translate(30,34)">
+        <rect width="44" height="44" rx="10" fill="#1a7f37"/>
+        <text x="22" y="30" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">M</text>
+      </g>
+      <text x="96" y="52" font-size="22" font-weight="700" fill="#1f2328">Toolbar button</text>
+      <text x="96" y="80" font-size="16" fill="#57606a">Grab the whole</text>
+      <text x="96" y="102" font-size="16" fill="#57606a">page at once.</text>
+      <text x="28" y="148" font-size="14" fill="#8c959f">Pulls the main article, skips the chrome</text>
+    </g>
+    <!-- card 3 -->
+    <g transform="translate(760,0)">
+      <rect width="360" height="170" rx="14" fill="#ffffff" stroke="#d0d7de" stroke-width="1.5"/>
+      <g transform="translate(28,38)" font-family="ui-monospace, Menlo, monospace">
+        <rect width="34" height="34" rx="7" fill="#eef1f4" stroke="#d0d7de"/>
+        <text x="17" y="23" font-size="15" fill="#3d444d" text-anchor="middle">&#8984;</text>
+        <rect x="44" width="34" height="34" rx="7" fill="#eef1f4" stroke="#d0d7de"/>
+        <text x="61" y="23" font-size="15" fill="#3d444d" text-anchor="middle">M</text>
+      </g>
+      <text x="120" y="52" font-size="22" font-weight="700" fill="#1f2328">Keyboard</text>
+      <text x="120" y="80" font-size="16" fill="#57606a">Cmd / Ctrl</text>
+      <text x="120" y="102" font-size="16" fill="#57606a">+ Shift + M</text>
+      <text x="28" y="148" font-size="14" fill="#8c959f">Copy the selection without lifting hands</text>
+    </g>
+  </g>
+
+  <!-- trust badges -->
+  <g transform="translate(80,392)" font-size="17" font-weight="600">
+    <g>
+      <rect width="186" height="46" rx="23" fill="#e8f3ec"/>
+      <text x="93" y="29" fill="#1a7f37" text-anchor="middle">Zero data collected</text>
+    </g>
+    <g transform="translate(202,0)">
+      <rect width="178" height="46" rx="23" fill="#e8f3ec"/>
+      <text x="89" y="29" fill="#1a7f37" text-anchor="middle">activeTab only</text>
+    </g>
+    <g transform="translate(396,0)">
+      <rect width="150" height="46" rx="23" fill="#e8f3ec"/>
+      <text x="75" y="29" fill="#1a7f37" text-anchor="middle">No account</text>
+    </g>
+    <g transform="translate(562,0)">
+      <rect width="168" height="46" rx="23" fill="#e8f3ec"/>
+      <text x="84" y="29" fill="#1a7f37" text-anchor="middle">Open source</text>
+    </g>
+    <g transform="translate(746,0)">
+      <rect width="180" height="46" rx="23" fill="#e8f3ec"/>
+      <text x="90" y="29" fill="#1a7f37" text-anchor="middle">~16 KB, 0 deps</text>
+    </g>
+    <g transform="translate(942,0)">
+      <rect width="178" height="46" rx="23" fill="#e8f3ec"/>
+      <text x="89" y="29" fill="#1a7f37" text-anchor="middle">Chrome·Edge·FF</text>
+    </g>
+  </g>
+
+  <!-- what it converts -->
+  <g transform="translate(80,488)">
+    <text x="0" y="22" font-size="20" font-weight="700" fill="#1f2328">Converts cleanly:</text>
+    <g font-size="16" fill="#3d444d" font-weight="500">
+      <!-- row 1 -->
+      <g transform="translate(0,44)">
+        <rect width="118" height="40" rx="8" fill="#ffffff" stroke="#d0d7de"/><text x="59" y="26" text-anchor="middle">Headings</text>
+        <rect x="130" width="150" height="40" rx="8" fill="#ffffff" stroke="#d0d7de"/><text x="205" y="26" text-anchor="middle">Bold / italic</text>
+        <rect x="292" width="150" height="40" rx="8" fill="#ffffff" stroke="#d0d7de"/><text x="367" y="26" text-anchor="middle">Links &amp; images</text>
+        <rect x="454" width="158" height="40" rx="8" fill="#ffffff" stroke="#d0d7de"/><text x="533" y="26" text-anchor="middle">Inline code</text>
+        <rect x="624" width="232" height="40" rx="8" fill="#ffffff" stroke="#d0d7de"/><text x="740" y="26" text-anchor="middle">Fenced code + language</text>
+        <rect x="868" width="148" height="40" rx="8" fill="#ffffff" stroke="#d0d7de"/><text x="942" y="26" text-anchor="middle">Nested lists</text>
+      </g>
+      <!-- row 2 -->
+      <g transform="translate(0,96)">
+        <rect width="150" height="40" rx="8" fill="#ffffff" stroke="#d0d7de"/><text x="75" y="26" text-anchor="middle">Blockquotes</text>
+        <rect x="162" width="170" height="40" rx="8" fill="#eaf6ee" stroke="#1a7f37"/><text x="247" y="26" text-anchor="middle" fill="#1a7f37" font-weight="700">GFM tables</text>
+        <rect x="344" width="160" height="40" rx="8" fill="#ffffff" stroke="#d0d7de"/><text x="424" y="26" text-anchor="middle">Strikethrough</text>
+        <rect x="516" width="190" height="40" rx="8" fill="#ffffff" stroke="#d0d7de"/><text x="611" y="26" text-anchor="middle">Highlight ==mark==</text>
+        <rect x="718" width="200" height="40" rx="8" fill="#ffffff" stroke="#d0d7de"/><text x="818" y="26" text-anchor="middle">HTML entities decoded</text>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(640,742)" text-anchor="middle">
+    <text font-size="20" fill="#57606a"><tspan font-weight="800" fill="#1a7f37">Grabdown</tspan>  ·  select &#8594; copy &#8594; paste</text>
+  </g>
+</svg>

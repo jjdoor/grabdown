@@ -1,0 +1,19 @@
+<svg viewBox="0 0 440 280" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, 'Segoe UI', Roboto, sans-serif">
+  <rect width="440" height="280" fill="#0d1117"/>
+  <rect width="440" height="280" fill="none"/>
+
+  <!-- logo -->
+  <g transform="translate(154,40) scale(1.02)">
+    <rect x="0" y="0" width="64" height="64" rx="15" fill="#1a7f37"/>
+    <path d="M15 47 V21 L32 36 L49 21 V47" fill="none" stroke="#ffffff" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M24 51 H40 L32 62 Z" fill="#ffffff"/>
+  </g>
+
+  <text x="220" y="156" font-size="44" font-weight="800" fill="#ffffff" text-anchor="middle">Grabdown</text>
+  <text x="220" y="192" font-size="19" fill="#7ee787" text-anchor="middle" font-weight="600">Copy anything as clean Markdown</text>
+  <text x="220" y="230" font-size="15" fill="#7d8590" text-anchor="middle">Right-click &#8594; clipboard &#183; zero data &#183; zero deps</text>
+
+  <g transform="translate(220,252)" text-anchor="middle">
+    <text font-size="13" fill="#57606a" letter-spacing="1">CHROME &#183; EDGE &#183; FIREFOX</text>
+  </g>
+</svg>
