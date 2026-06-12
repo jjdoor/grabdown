@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="popup.css">
+  <title>Grabdown</title>
+</head>
+<body>
+  <header class="gd-head">
+    <span class="gd-logo">M<span class="gd-arrow">&#9662;</span></span>
+    <span class="gd-title">Grabdown</span>
+  </header>
+
+  <p class="gd-sub">Copy anything as clean Markdown.</p>
+
+  <div class="gd-actions">
+    <button id="gd-selection" class="gd-btn gd-btn--primary" type="button">
+      Copy selection
+    </button>
+    <button id="gd-page" class="gd-btn" type="button">
+      Copy whole page
+    </button>
+  </div>
+
+  <p id="gd-status" class="gd-status" role="status" aria-live="polite"></p>
+
+  <footer class="gd-foot">
+    Tip: right-click any selection &rarr; <em>Copy selection as Markdown</em>.
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>

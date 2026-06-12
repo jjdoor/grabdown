@@ -1,0 +1,13 @@
+{
+  "name": "grabdown",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Select anything on a page, copy it as clean Markdown. Zero dependencies, zero data collection, minimal permissions.",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --test",
+    "build": "node build.js"
+  },
+  "license": "MIT",
+  "author": "jjdoor"
+}

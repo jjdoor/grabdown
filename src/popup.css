@@ -1,0 +1,97 @@
+:root {
+  --gd-bg: #ffffff;
+  --gd-fg: #1f2328;
+  --gd-muted: #656d76;
+  --gd-border: #d0d7de;
+  --gd-accent: #1a7f37;
+  --gd-accent-fg: #ffffff;
+  --gd-hover: #f3f4f6;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --gd-bg: #1c2128;
+    --gd-fg: #e6edf3;
+    --gd-muted: #9198a1;
+    --gd-border: #30363d;
+    --gd-accent: #2ea043;
+    --gd-accent-fg: #ffffff;
+    --gd-hover: #262c34;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  width: 260px;
+  margin: 0;
+  padding: 14px;
+  font: 13px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: var(--gd-fg);
+  background: var(--gd-bg);
+}
+
+.gd-head { display: flex; align-items: center; gap: 8px; }
+
+.gd-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  background: var(--gd-accent);
+  color: var(--gd-accent-fg);
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 1;
+}
+.gd-arrow { font-size: 9px; margin-left: 1px; }
+
+.gd-title { font-size: 15px; font-weight: 700; letter-spacing: -0.01em; }
+
+.gd-sub { margin: 8px 0 12px; color: var(--gd-muted); font-size: 12px; }
+
+.gd-actions { display: flex; flex-direction: column; gap: 8px; }
+
+.gd-btn {
+  appearance: none;
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid var(--gd-border);
+  border-radius: 7px;
+  background: var(--gd-bg);
+  color: var(--gd-fg);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.12s ease, border-color 0.12s ease;
+}
+.gd-btn:hover { background: var(--gd-hover); }
+.gd-btn:active { transform: translateY(0.5px); }
+.gd-btn:disabled { opacity: 0.6; cursor: default; }
+
+.gd-btn--primary {
+  background: var(--gd-accent);
+  border-color: var(--gd-accent);
+  color: var(--gd-accent-fg);
+}
+.gd-btn--primary:hover { background: var(--gd-accent); filter: brightness(1.07); }
+
+.gd-status {
+  min-height: 16px;
+  margin: 10px 0 0;
+  font-size: 12px;
+  font-weight: 600;
+}
+.gd-status--ok { color: var(--gd-accent); }
+.gd-status--err { color: #cf222e; }
+
+.gd-foot {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid var(--gd-border);
+  color: var(--gd-muted);
+  font-size: 11px;
+}
+.gd-foot em { font-style: normal; font-weight: 600; color: var(--gd-fg); }
